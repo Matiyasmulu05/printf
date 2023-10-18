@@ -2,8 +2,8 @@
 
 /************************* PRINT UNSIGNED NUMBER *************************/
 /**
- * print_unsigned - Prints an unsigned number
- * @types: List a of arguments
+ * print_unsigned - Prints an unsigned number.
+ * @types: List a of arguments.
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width
@@ -43,7 +43,7 @@ int print_unsigned(va_list types, char buffer[],
  * @flags:  Calculates active flags
  * @width: get width
  * @precision: Precision specification
- * @size: Size specifier
+ * @size: Size specifier.
  * Return: Number of chars printed
  */
 int print_octal(va_list types, char buffer[],
@@ -80,9 +80,9 @@ int print_octal(va_list types, char buffer[],
 /************** PRINT UNSIGNED NUMBER IN HEXADECIMAL **************/
 /**
  * print_hexadecimal - Prints an unsigned number in hexadecimal notation
- * @types: Lista of arguments
+ * @types: Lista of arguments.
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @flags:  Calculates active flags.
  * @width: get width
  * @precision: Precision specification
  * @size: Size specifier
@@ -101,9 +101,9 @@ int print_hexadecimal(va_list types, char buffer[],
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
- * @width: get width
+ * @width: get width.
  * @precision: Precision specification
- * @size: Size specifier
+ * @size: Size specifier.
  * Return: Number of chars printed
  */
 int print_hexa_upper(va_list types, char buffer[],
@@ -118,10 +118,10 @@ int print_hexa_upper(va_list types, char buffer[],
  * print_hexa - Prints a hexadecimal number in lower or upper
  * @types: Lista of arguments
  * @map_to: Array of values to map the number to
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @flag_ch: Calculates active flags
- * @width: get width
+ * @buffer: Buffer array to handle print.
+ * @flags:  Calculates active flags.
+ * @flag_ch: Calculates active flags.
+ * @width: get width.
  * @precision: Precision specification
  * @size: Size specifier
  * @size: Size specification
